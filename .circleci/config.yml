@@ -9,7 +9,17 @@ jobs:
     executor: ruby/default
     steps:
       - checkout
+      
+      - run:
+          name: Hello World!
+          command: echo "Hello, World!"
       - run:
           name: Which bundler?
           command: bundle -v
+          
       - ruby/bundle-install
+          
+      - run:
+          name: build the jekyll site
+          command: bundle exec jekyll build
+          
