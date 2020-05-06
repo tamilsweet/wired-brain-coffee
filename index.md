@@ -24,3 +24,9 @@
 <img src="images/latte.jpg?raw=true"/>
 
 <p style="font-size:14px">Making that perfect cup of a comforting vanilla latte isn't as hard ...</p>
+
+
+## [New Recipe](404.md)
+<img src="images/404.jpg?raw=true"/>
+
+<p style="font-size:14px">Making new recipe ...</p>
